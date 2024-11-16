@@ -1,0 +1,36 @@
+.chat-row{
+    display: flex; 
+    margin: 8px; 
+    width: 100%; 
+    align-items: top; 
+    margin-top: 3px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.chatbot-text-bubble{
+    background-color: #fffcfc09;
+    padding: 1rem;
+    border-radius: 1.3rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.397);
+
+}
+
+.submit-button{
+    /* align-items: bottom; */
+    margin-top: 1.7rem;
+}
+
+.human-text-bubble {
+    background-color: #0083d533;
+    padding: 1rem;
+    border-radius: 1.3rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.397);
+}
+
+.chat-icon {
+    border-radius: 5px;
+}
